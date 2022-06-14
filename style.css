@@ -1,0 +1,48 @@
+.container{
+    margin-bottom: 50px;
+}
+
+.buy-now-button{
+background-color: rgb(14, 13, 13);
+border: none;
+font-size: 22px;
+padding: 8px 25px;
+border-radius: 5px;
+color: aliceblue;
+cursor: pointer;
+
+}
+.carousel-item{
+    padding: 40px 40px;
+}
+
+.slide-button{
+    background-color: orange;
+}
+.carousel-control-color{
+    background-color: orange;
+}
+
+#banner-section .carousel-indicators [data-bs-target] {
+    background-color: orange;
+
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: orange;
+    opacity: 7%;
+}
+.card-img{
+    padding: 30px 30px;
+}
+.card{
+    border: none;
+    box-shadow: 0px 0px 15px lightgray;
+    border-radius: 8px;
+}
+.smartphon-text{
+    margin-bottom: 40px;
+}
+
+
+
+
