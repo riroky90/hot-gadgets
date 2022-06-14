@@ -36,12 +36,39 @@ cursor: pointer;
 }
 .card{
     border: none;
-    box-shadow: 0px 0px 15px lightgray;
+    box-shadow: 3px 3px 10px lightgray;
     border-radius: 8px;
 }
 .smartphon-text{
     margin-bottom: 40px;
 }
+h4{
+    color: orange;
+}
+.line{
+    border: 2px;
+}
+.box{
+    border-width: 20px;
+}
+
+.line{
+    width: 100px;
+    height: 2px;
+}
+
+#catagories .section-title::after {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 8px;
+    background: orange;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+
 
 
 
